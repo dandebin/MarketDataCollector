@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/1/22 21:44:15。
+     1>项目“D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Solution\CTP\CTPMA.VS2010.Net4.0.vcxproj”在节点 3 上(Rebuild 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /D __CTP_MA__ /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\VS2010\dotNet4.0\MA版\CTP.pch" /Fo"Debug\VS2010\dotNet4.0\MA版\\" /Fd"Debug\VS2010\dotNet4.0\MA版\vc100.pdb" /doc"Debug\VS2010\dotNet4.0\MA版\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /D __CTP_MA__ /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VS2010\dotNet4.0\MA版\CTP.pch" /Fo"Debug\VS2010\dotNet4.0\MA版\\" /Fd"Debug\VS2010\dotNet4.0\MA版\vc100.pdb" /doc"Debug\VS2010\dotNet4.0\MA版\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp CTP.cpp CTPMDAdapter.cpp CTPTraderAdapter.cpp MdSpi.cpp TraderSpi.cpp Util.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         CTP.cpp
+         CTPMDAdapter.cpp
+         CTPTraderAdapter.cpp
+         MdSpi.cpp
+         TraderSpi.cpp
+         Util.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /D __CTP_MA__ /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\VS2010\dotNet4.0\MA版\\" /Fd"Debug\VS2010\dotNet4.0\MA版\vc100.pdb" /doc"Debug\VS2010\dotNet4.0\MA版\\" /TP /analyze- /errorReport:prompt "d:\tmp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Net_Demo\Debug\VS2010\dotNet4.0\MA版\CTP.dll" /INCREMENTAL /NOLOGO ..\ThostTraderApi\thostmduserapi.lib ..\ThostTraderApi\thosttraderapi.lib /MANIFEST /ManifestFile:"Debug\VS2010\dotNet4.0\MA版\CTP.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Net_Demo\Debug\VS2010\dotNet4.0\MA版\CTP.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL "Debug\VS2010\dotNet4.0\MA版\AssemblyInfo.obj"
+         "Debug\VS2010\dotNet4.0\MA版\CTP.obj"
+         "Debug\VS2010\dotNet4.0\MA版\CTPMDAdapter.obj"
+         "Debug\VS2010\dotNet4.0\MA版\CTPTraderAdapter.obj"
+         "Debug\VS2010\dotNet4.0\MA版\MdSpi.obj"
+         "Debug\VS2010\dotNet4.0\MA版\Stdafx.obj"
+         "Debug\VS2010\dotNet4.0\MA版\TraderSpi.obj"
+         "Debug\VS2010\dotNet4.0\MA版\Util.obj"
+         "Debug\VS2010\dotNet4.0\MA版\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         CTPMA.VS2010.Net4.0.vcxproj -> D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Net_Demo\Debug\VS2010\dotNet4.0\MA版\CTP.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Net_Demo\Debug\VS2010\dotNet4.0\MA版\CTP.dll;#2" /manifest "Debug\VS2010\dotNet4.0\MA版\CTP.dll.intermediate.manifest"
+       XdcMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\xdcmake.exe /old "CTPMA.VS2010.Net4.0" /nologo /Fo"D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Net_Demo\Debug\VS2010\dotNet4.0\MA版\CTP.xml" /Fs"Debug\VS2010\dotNet4.0\MA版\AssemblyInfo.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\CTP.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\CTPMDAdapter.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\CTPTraderAdapter.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\MdSpi.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\Stdafx.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\TraderSpi.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\Util.xdc" /Fs"Debug\VS2010\dotNet4.0\MA版\.NETFramework,Version=v4.0.AssemblyAttributes.xdc"
+     1>已完成生成项目“D:\Workspace\GYML\CTP\CTP.CSharp.Option.V2\CTP.Solution\CTP\CTPMA.VS2010.Net4.0.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:06.30

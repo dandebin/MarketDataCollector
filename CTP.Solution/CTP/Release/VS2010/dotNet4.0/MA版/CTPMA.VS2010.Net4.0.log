@@ -1,0 +1,37 @@
+﻿生成启动时间为 2016/11/30 16:28:59。
+     1>项目“D:\Weisi.ArtOfPackages\RDC_packages\CTP.Net\CTP.Solution\CTP\CTPMA.VS2010.Net4.0.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /D __CTP_MA__ /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\VS2010\dotNet4.0\MA版\CTP.pch" /Fo"Release\VS2010\dotNet4.0\MA版\\" /Fd"Release\VS2010\dotNet4.0\MA版\vc120.pdb" /doc"Release\VS2010\dotNet4.0\MA版\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /D __CTP_MA__ /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\VS2010\dotNet4.0\MA版\CTP.pch" /Fo"Release\VS2010\dotNet4.0\MA版\\" /Fd"Release\VS2010\dotNet4.0\MA版\vc120.pdb" /doc"Release\VS2010\dotNet4.0\MA版\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp CTP.cpp CTPMDAdapter.cpp CTPTraderAdapter.cpp MdSpi.cpp TraderSpi.cpp Util.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(53): warning C4947: “RequestMinimum”: 标记为已过时
+                 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+         CTP.cpp
+         CTPMDAdapter.cpp
+         CTPTraderAdapter.cpp
+         MdSpi.cpp
+         TraderSpi.cpp
+         Util.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /D __CTP_MA__ /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\VS2010\dotNet4.0\MA版\\" /Fd"Release\VS2010\dotNet4.0\MA版\vc120.pdb" /doc"Release\VS2010\dotNet4.0\MA版\\" /TP /analyze- /errorReport:prompt "C:\Users\shiwe\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Weisi.ArtOfPackages\RDC_packages\CTP.Net\CTP.Solution\Release\VS2010\dotNet4.0\MA版\CTP.dll" /INCREMENTAL:NO /NOLOGO ..\ThostTraderApi\thostmduserapi.lib ..\ThostTraderApi\thosttraderapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Weisi.ArtOfPackages\RDC_packages\CTP.Net\CTP.Solution\Release\VS2010\dotNet4.0\MA版\CTP.pdb" /LTCG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL "Release\VS2010\dotNet4.0\MA版\AssemblyInfo.obj"
+         "Release\VS2010\dotNet4.0\MA版\CTP.obj"
+         "Release\VS2010\dotNet4.0\MA版\CTPMDAdapter.obj"
+         "Release\VS2010\dotNet4.0\MA版\CTPTraderAdapter.obj"
+         "Release\VS2010\dotNet4.0\MA版\MdSpi.obj"
+         "Release\VS2010\dotNet4.0\MA版\Stdafx.obj"
+         "Release\VS2010\dotNet4.0\MA版\TraderSpi.obj"
+         "Release\VS2010\dotNet4.0\MA版\Util.obj"
+         "Release\VS2010\dotNet4.0\MA版\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+         CTPMA.VS2010.Net4.0.vcxproj -> D:\Weisi.ArtOfPackages\RDC_packages\CTP.Net\CTP.Solution\Release\VS2010\dotNet4.0\MA版\CTP.dll
+       XdcMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\xdcmake.exe /old "CTPMA.VS2010.Net4.0" /nologo /Fo"D:\Weisi.ArtOfPackages\RDC_packages\CTP.Net\CTP.Solution\Release\VS2010\dotNet4.0\MA版\CTP.xml" /Fs"Release\VS2010\dotNet4.0\MA版\AssemblyInfo.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\CTP.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\CTPMDAdapter.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\CTPTraderAdapter.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\MdSpi.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\Stdafx.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\TraderSpi.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\Util.xdc" /Fs"Release\VS2010\dotNet4.0\MA版\.NETFramework,Version=v4.0.AssemblyAttributes.xdc"
+     1>已完成生成项目“D:\Weisi.ArtOfPackages\RDC_packages\CTP.Net\CTP.Solution\CTP\CTPMA.VS2010.Net4.0.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:36.22
